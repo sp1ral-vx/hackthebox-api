@@ -3,3 +3,4 @@ build/**
 dist/**
 hackthebox_api.egg-info/**
 htb/__pycache__/**
+build.sh
