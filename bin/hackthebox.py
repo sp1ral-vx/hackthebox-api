@@ -140,7 +140,7 @@ class HackTheBoxClient(HackTheBox):
 
         machines = Machines()
         machines.machines = machines._filter(
-            retired=False, owned_user=False, owned_root=False, os='Linux'
+            retired=False, owned_user=False, owned_root=False,
         )
         if opts.machine_name:
             machines.machines = machines._filter(name=opts.machine_name)
