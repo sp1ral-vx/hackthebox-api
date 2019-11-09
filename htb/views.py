@@ -24,7 +24,12 @@ class MachineViews():
         self.table.align['Difficulty'] = 'l'
 
     def _name(self, machine: dict) -> str:
-        return colorize('green', machine['name'])
+        os = ''
+        if machine['os'] == 'Windows':
+            os = u'\u24cc'
+        elif machine['os'] == 'Linux':
+            os = u'\u24c1'
+        return '{}  {}'.format(os, colorize('green', machine['name']))
 
     def _ip(self, machine: dict) -> str:
         return colorize('cyan', machine['ip'])
