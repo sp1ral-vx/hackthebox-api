@@ -1,0 +1,5 @@
+__pycache__/**
+build/**
+dist/**
+hackthebox_api.egg-info/**
+htb/__pycache__/**
