@@ -25,7 +25,7 @@ setup(
         'requests==2.22.0',
         'six==1.13.0',
         'soupsieve==1.9.5',
-        'urllib3==1.25.6',
+        'urllib3==1.26.5',
         'websocket-client==0.56.0',
     ],
 )
